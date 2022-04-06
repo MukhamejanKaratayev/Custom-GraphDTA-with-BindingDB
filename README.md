@@ -52,7 +52,7 @@ where the first argument is for the index of the datasets, 0/1/2 for 'BindingDB_
 ```sh
 cuda_name = "cuda:0"
 if len(sys.argv)>3:
-    cuda_name = "cuda:" + str(int(sys.argv[3])) 
+    cuda_name = ["cuda:0","cuda:1","cuda:2","cuda:3","cuda:4","cuda:5", "cuda:6","cuda:7"][int(sys.argv[3])]
 ```
 
 This returns the model and result files for the modelling achieving the best MSE for testing data throughout the training.
