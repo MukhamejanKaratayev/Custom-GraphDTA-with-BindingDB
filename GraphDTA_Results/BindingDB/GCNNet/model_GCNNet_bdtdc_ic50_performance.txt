@@ -1,0 +1,1 @@
+No improvement since epoch  580 ; best_mse 0.53497505 GCNNet bdtdc_ic50

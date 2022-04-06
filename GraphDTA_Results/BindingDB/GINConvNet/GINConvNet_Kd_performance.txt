@@ -1,0 +1,7 @@
+Train epoch: 1000 [0/37251 (0%)]	Loss: 0.115947
+Train epoch: 1000 [361480/37251 (27%)]	Loss: 0.127139
+Train epoch: 1000 [704000/37251 (55%)]	Loss: 0.117598
+Train epoch: 1000 [1037400/37251 (82%)]	Loss: 0.106520
+predicting for valid data
+Make prediction for 9313 samples...
+0.5975929 No improvement since epoch  802 ; best_test_mse,best_test_ci: 0.5975929 0.8565738003335387 GINConvNet Kd

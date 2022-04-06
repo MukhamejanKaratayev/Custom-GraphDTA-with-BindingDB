@@ -1,0 +1,5 @@
+Train epoch: 1000 [0/20036 (0%)]	Loss: 0.075013
+Train epoch: 1000 [333120/20036 (50%)]	Loss: 0.073583
+predicting for valid data
+Make prediction for 5010 samples...
+0.27004394 No improvement since epoch  706 ; best_test_mse,best_test_ci: 0.27004394 0.8751220052338389 GINConvNet davis
