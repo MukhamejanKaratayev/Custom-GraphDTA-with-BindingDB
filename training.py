@@ -49,7 +49,7 @@ def predicting(model, device, loader):
     return total_labels.cpu().numpy().flatten(),total_preds.cpu().numpy().flatten()
 
 
-datasets = [['davis','kiba','Ki','Kd','IC50', 'davis2', 'bdtdc_ic50','bdtdc_kd','bdtdc_ki','bindingdb_ic50','bindingdb_ki','bindingdb_kd'][int(sys.argv[1])]] 
+datasets = [['bdtdc_kd','bdtdc_ki','bdtdc_ic50'][int(sys.argv[1])]] 
 modeling = [GINConvNet, GATNet, GAT_GCN, GCNNet][int(sys.argv[2])]
 model_st = modeling.__name__
 
