@@ -25,6 +25,8 @@ pip install torch-sparse==latest+cu101 -f https://pytorch-geometric.com/whl/torc
 pip install torch-cluster==latest+cu101 -f https://pytorch-geometric.com/whl/torch-1.4.0.html
 pip install torch-spline-conv==latest+cu101 -f https://pytorch-geometric.com/whl/torch-1.4.0.html
 pip install torch-geometric
+pip install tqdm
+pip install lifelines
 
 ```
 
