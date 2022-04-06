@@ -60,3 +60,8 @@ if len(sys.argv)>3:
 This returns the model and result files for the modelling achieving the best MSE for testing data throughout the training.
 For example, it returns two files model_GATNet_davis.model and result_GATNet_davis.csv when running GATNet on Davis data.
 
+###  Pretrained models:
+
+All pretrained models for each dataset can be found in "GraphDTA_Results" folder. Example of inference can be found in model_performance.ipynb. Also, the inference for external data are shown in "predict_generated" folder. 
+
+
